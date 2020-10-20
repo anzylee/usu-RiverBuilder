@@ -11,12 +11,12 @@ site_name = 'sfe316_cleanbed'
 NAME = 'sfe_316'
 cell_size = '1'
 execute = np.array([0, # 1 Table to point
-                    0, # 2 Create TIN
-                    0, # 3 TIN to Raster
+                    1, # 2 Create TIN
+                    1, # 3 TIN to Raster
                     1]) # 4 Raster to asc
 
 #############################################################################################
-arcpy.env.workspace = "./site316_cleanbed/site316_5x_cleanbed"
+arcpy.env.workspace = "./site316_cleanbed/site316_cleanbed"
 sr = arcpy.SpatialReference(3857, 115700) #  WGS_1984_web_mercator, WGS 1984
 #sr = arcpy.SpatialReference(4759, 115700) # WGS 1984, WGS 1984
 arcpy.CheckOutExtension("3D")
@@ -24,7 +24,7 @@ arcpy.CheckOutExtension("3D")
 if execute[0] == 1:
     # 1 Table to point
     in_Table = arcpy.env.workspace+"/SRVtopo.csv"
-    output_point = case_name+'_xyz'
+    output_point = case_name+'_xyz.shp'
     x_coords = "X"
     y_coords = "Y"
     z_coords = "Z"
@@ -41,7 +41,7 @@ if execute[0] == 1:
 
 if execute[1] == 1:
     # 2 Create TIN
-    in_point = case_name+'_xyz'
+    in_point = case_name+'_xyz.shp'
     output_TIN = case_name+'_TIN'
 
     arcpy.ddd.CreateTin(output_TIN, sr, in_point+" Z masspoints")
