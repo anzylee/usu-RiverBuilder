@@ -1,0 +1,15 @@
+1. Table to point
+Input: SRVtopo.csv
+Output: site316_cleanbed_xyz.shp
+
+2. Create TIN
+Input: site316_cleanbed_xyz.shp
+Output: site316_cleanbed_TIN
+
+3. TIN to raster
+Input: site316_cleanbed_TIN
+Output: site316_cleanbed.tif
+
+4. Raster to ascii
+Input: site316_cleanbed.tif
+Output: site316_cleanbed.asc
