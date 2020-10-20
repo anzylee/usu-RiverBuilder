@@ -10,7 +10,7 @@ case_name = 'site316_cleanbed'
 site_name = 'sfe316_cleanbed'
 NAME = 'sfe_316'
 cell_size = '1'
-execute = np.array([0, # 1 Table to point
+execute = np.array([1, # 1 Table to point
                     1, # 2 Create TIN
                     1, # 3 TIN to Raster
                     1]) # 4 Raster to asc
