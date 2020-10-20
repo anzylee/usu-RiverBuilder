@@ -6,8 +6,8 @@ import arcpy
 #############################################################################################
 # 1 Input variables
 # 1.1 Specify the case name
-case_name = 'site316_cleanbed'
-site_name = 'sfe316_cleanbed'
+case_name = 'site316_roughbed'
+site_name = 'sfe316_roughbed'
 NAME = 'sfe_316'
 cell_size = '1'
 execute = np.array([1, # 1 Table to point
@@ -16,7 +16,7 @@ execute = np.array([1, # 1 Table to point
                     1]) # 4 Raster to asc
 
 #############################################################################################
-arcpy.env.workspace = "./site316_cleanbed/site316_cleanbed"
+arcpy.env.workspace = "./site316_roughbed/site316_roughbed"
 sr = arcpy.SpatialReference(3857, 115700) #  WGS_1984_web_mercator, WGS 1984
 #sr = arcpy.SpatialReference(4759, 115700) # WGS 1984, WGS 1984
 arcpy.CheckOutExtension("3D")
