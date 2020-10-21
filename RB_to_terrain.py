@@ -4,7 +4,7 @@ import arcpy
 
 #############################################################################################
 # RB_to_terrain.py converts the RB output table (.csv) to terrain (.asc)
-#   Written by Anzy Lee, Ph.D., Utah State University
+#   Written by Anzy Lee, Postdoctoral Scholar, Utah State University
 #   Date: 10/21/2020
 #############################################################################################
 # Input variables: RB_name, asc_name, cell_size, execute
