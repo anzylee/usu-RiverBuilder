@@ -8,8 +8,8 @@ import arcpy
 #   Date: 10/21/2020
 #############################################################################################
 # Input variables: RB_name, asc_name, cell_size, execute
-RB_name = 'site316_roughbed'    # Name of the river builder case
-asc_name = 'sfe316_roughbed'    # Name of the ascii terrain
+RB_name = 'S1'    # Name of the river builder case
+asc_name = 'S1'    # Name of the ascii terrain
 cell_size = '1'                 # Cell size of ascii terrain
 execute = np.array([1,          # 1 if you want to execute "Table to point",
                     1,          # 1 if you want to execute "Create TIN",
