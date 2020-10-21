@@ -2,21 +2,22 @@ import os
 import numpy as np
 import arcpy
 
-# 0. Environment setting
 #############################################################################################
-# 1 Input variables
-# 1.1 Specify the case name
-case_name = 'site316_roughbed'
-site_name = 'sfe316_roughbed'
-NAME = 'sfe_316'
-cell_size = '1'
-execute = np.array([1, # 1 Table to point
-                    1, # 2 Create TIN
-                    1, # 3 TIN to Raster
-                    1]) # 4 Raster to asc
-
+# RB_to_terrain.py converts the RB output table (.csv) to terrain (.asc)
+#   Written by Anzy Lee, Ph.D., Utah State University
+#   Date: 10/21/2020
 #############################################################################################
-arcpy.env.workspace = "./site316_roughbed/site316_roughbed"
+# Input variables: RB_name, asc_name, cell_size, execute
+RB_name = 'site316_roughbed'    # Name of the river builder case
+asc_name = 'sfe316_roughbed'    # Name of the ascii terrain
+cell_size = '1'                 # Cell size of ascii terrain
+execute = np.array([1,          # 1 if you want to execute "Table to point",
+                    1,          # 1 if you want to execute "Create TIN",
+                    1,          # 1 if you want to execute "TIN to Raster",
+                    1])         # 1 if you want to execute "Raster to asc"
+#############################################################################################
+# Workspace setting
+arcpy.env.workspace = "./"+RB_name+"/"+RB_name
 sr = arcpy.SpatialReference(3857, 115700) #  WGS_1984_web_mercator, WGS 1984
 #sr = arcpy.SpatialReference(4759, 115700) # WGS 1984, WGS 1984
 arcpy.CheckOutExtension("3D")
@@ -24,7 +25,7 @@ arcpy.CheckOutExtension("3D")
 if execute[0] == 1:
     # 1 Table to point
     in_Table = arcpy.env.workspace+"/SRVtopo.csv"
-    output_point = case_name+'_xyz.shp'
+    output_point = RB_name+'_xyz.shp'
     x_coords = "X"
     y_coords = "Y"
     z_coords = "Z"
@@ -41,15 +42,15 @@ if execute[0] == 1:
 
 if execute[1] == 1:
     # 2 Create TIN
-    in_point = case_name+'_xyz.shp'
-    output_TIN = case_name+'_TIN'
+    in_point = RB_name+'_xyz.shp'
+    output_TIN = RB_name+'_TIN'
 
     arcpy.ddd.CreateTin(output_TIN, sr, in_point+" Z masspoints")
 
 if execute[2] == 1:
     # 3 TIN to Raster
-    in_TIN = case_name+'_TIN'
-    out_tif = case_name+'.tif'
+    in_TIN = RB_name+'_TIN'
+    out_tif = RB_name+'.tif'
     # Set variables for TIN to Raster
     dataType = "FLOAT"  # Default
     method = "LINEAR"  # Default
@@ -61,7 +62,8 @@ if execute[2] == 1:
 
 if execute[3] == 1:
     # 4 Raster to ascii
-    in_tif = case_name+'.tif'
-    out_ascii = site_name + '.asc'
+    in_tif = RB_name+'.tif'
+    out_ascii = asc_name + '.asc'
 
     arcpy.RasterToASCII_conversion(in_tif, out_ascii)
+#############################################################################################
