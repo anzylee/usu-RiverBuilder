@@ -1,11 +1,12 @@
 import os
 from riverbuilder.core import river
-#import riverbuilder
 
 dir = "site316"
+case_name = "site316_5x_cleanbed"
 os.chdir(dir)
 
-fname = "site316_5x_roughbed.txt"
-outfolder = "site316_5x_roughbed"
-log = "site316_roughbed"
+fname = case_name + "/" + case_name + ".txt"
+outfolder = case_name + "/" + case_name
+log = ""
 river.buildRiver(fname, outfolder, log)
+
