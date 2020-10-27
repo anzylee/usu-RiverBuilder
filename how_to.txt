@@ -1,15 +1,17 @@
-1. Table to point
-Input: SRVtopo.csv
-Output: site316_cleanbed_xyz.shp
+Windows:
 
-2. Create TIN
-Input: site316_cleanbed_xyz.shp
-Output: site316_cleanbed_TIN
+1. Using "Git Bash"
 
-3. TIN to raster
-Input: site316_cleanbed_TIN
-Output: site316_cleanbed.tif
+1) Open "Git Bash"
+2) Upgrade your numpy by typing in 
+$ pip install --upgrade numpy
+3) Create your river archetype:
+$ python.exe -m riverbuilder sample.txt sample
+e.g.
+$ python.exe -m riverbuilder site316_5x_roughbed.txt site316_roughbed
 
-4. Raster to ascii
-Input: site316_cleanbed.tif
-Output: site316_cleanbed.asc
+2. Using python script
+
+1) Open "RB_run.py"
+2) Specify the names of riverbuilder input format txt file and output folder name
+3) Run the python script
