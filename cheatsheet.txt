@@ -1,0 +1,17 @@
+Windows:
+
+1. Using "Git Bash"
+
+1) Open "Git Bash"
+2) Upgrade your numpy by typing in 
+$ pip install --upgrade numpy
+3) Create your river archetype:
+$ python.exe -m riverbuilder sample.txt sample
+e.g.
+$ python.exe -m riverbuilder site316_5x_roughbed.txt site316_roughbed
+
+2. Using python script
+
+1) Open "RB_run.py"
+2) Specify the names of riverbuilder input format txt file and output folder name
+3) Run the python script
