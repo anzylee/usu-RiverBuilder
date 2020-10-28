@@ -11,8 +11,8 @@ import pandas
 
 #############################################################################################
 # Input variables: RB_path, asc_name, RB_unit, asc_unit, cell_size, execute
-RB_path ="site316/site316_5x_cleanbed/site316_5x_cleanbed"     # path to river builder directory
-asc_name = 'sfe316'                                             # Define the name of ascii terrain
+RB_path ="site316/site316_5x_roughbed_V1/site316_5x_roughbed_V1"   # path to river builder directory
+asc_name = 'sfe316_5x_roughbed_V1'                                # Define the name of ascii terrain
 
 RB_unit = 'foot'                # Unit of the river archetype
 asc_unit = 'meter'              # Unit of the ascii terrain
@@ -40,15 +40,17 @@ else:
     asc_conv = 1
 conv_factor = asc_conv/RB_conv
 
+#############################################################################################
 if execute[0] == 1:
     # 0 Unit conversion
-    print('Converting units')
+    print('1. Converting units')
     in_Table = arcpy.env.workspace + "/SRVtopo.csv"
     out_Table = arcpy.env.workspace + "/SRVtopo_xyz.csv"
     df = pandas.read_csv(in_Table)
-    df.X = df.X*conv_factor
-    df.Y = df.Y*conv_factor
-    df.Z = df.Z*conv_factor
+    offset = 100 # to prevent minus values
+    df.X = df.X*conv_factor +offset
+    df.Y = df.Y*conv_factor +offset
+    df.Z = df.Z*conv_factor +offset
     df.to_csv(out_Table)
 
     # 1 Table to point
@@ -59,24 +61,26 @@ if execute[0] == 1:
     z_coords = "Z"
 
     # Make the XY event layer...
-    print("Running Table to point")
+    print("2. Running Table to point")
     arcpy.management.XYTableToPoint(in_Table, output_point,
                                     x_coords, y_coords, z_coords,
                                     sr)
-    print(arcpy.GetCount_management(output_point))
+    print("# of points = " + str(arcpy.GetCount_management(output_point)))
 
-    # Points should be adjusted to create a "RUNWAY'
-    print('Points should be adjusted to create a RUNWAY')
-    os.system("pause")
+    # Points can be adjusted to create a "RUNWAY'
+    # print('Points should be adjusted to create a RUNWAY')
+    # os.system("pause")
 
+#############################################################################################
 if execute[1] == 1:
     # 2 Create TIN
     in_point = asc_name+'_xyz.shp'
     output_TIN = asc_name+'_TIN'
 
-    print("Running Create TIN")
+    print("3. Running Create TIN")
     arcpy.ddd.CreateTin(output_TIN, sr, in_point+" Z masspoints")
 
+#############################################################################################
 if execute[2] == 1:
     # 3 TIN to Raster
     in_TIN = asc_name+'_TIN'
@@ -87,15 +91,16 @@ if execute[2] == 1:
     sampling = "CELLSIZE " + cell_size
     zfactor = "1"
 
-    print("Running TIN Raster")
+    print("4. Running TIN Raster")
     arcpy.ddd.TinRaster(in_TIN, out_tif, dataType,
                     method, sampling, zfactor)
+#############################################################################################
 
 if execute[3] == 1:
     # 4 Raster to ascii
     in_tif = asc_name+'.tif'
     out_ascii = asc_name + '.asc'
 
-    print("Running Raster To ASCII")
+    print("5. Running Raster To ASCII")
     arcpy.RasterToASCII_conversion(in_tif, out_ascii)
 #############################################################################################

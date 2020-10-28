@@ -7,14 +7,18 @@ import os
 from riverbuilder.core import river
 
 #############################################################################################
-# Input: dir, case_name, fname, outfolder, log
-dir = "site316"                     # The name of directory 
-case_name = "site316_5x_cleanbed"
-os.chdir(dir)
+# Input: dir, case_name
+dir = "site316"                     # The name of directory you want to set
+                                    # as a current working directory
+case_name = "site316_5x_roughbed_V1"   # Name for the case
 
+#############################################################################################
+# Optional inputs: fname, outfolder, log
+os.chdir(dir)
 fname = case_name + "/" + case_name + ".txt"
 outfolder = case_name + "/" + case_name
 log = ""
-
+#############################################################################################
+# Run RiverBuilder
 river.buildRiver(fname, outfolder, log)
 
