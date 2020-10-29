@@ -5,6 +5,7 @@
 #############################################################################################
 import os
 from riverbuilder.core import river
+import matplotlib.pyplot as plt
 
 #############################################################################################
 # Input: dir, case_name
@@ -22,3 +23,4 @@ log = ""
 # Run RiverBuilder
 river.buildRiver(fname, outfolder, log)
 
+plt.close('all')
