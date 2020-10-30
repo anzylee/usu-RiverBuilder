@@ -11,10 +11,10 @@ import pandas
 
 #############################################################################################
 # Input variables: RB_path, asc_name, RB_unit, asc_unit, cell_size, execute
-RB_path ="site316/site316_5x_roughbed_V2/site316_5x_roughbed_V2"   # path to river builder directory
-asc_name = 'sfe316_5x_roughbed_V2'                                # Define the name of ascii terrain
+RB_path ="site316/site316_5x_roughbed_V3/site316_5x_roughbed_V3"   # path to river builder directory
+asc_name = 'sfe316_5x_roughbed_V3'                                # Define the name of ascii terrain
 
-RB_unit = 'foot'                # Unit of the river archetype
+RB_unit = 'meter'                # Unit of the river archetype
 asc_unit = 'meter'              # Unit of the ascii terrain
 cell_size = '1'                 # Cell size of ascii terrain in asc_unit
 
