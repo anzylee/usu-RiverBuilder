@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en"><Esri><CreaDate>20201020</CreaDate><CreaTime>15110200</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce><DataProperties><lineage><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Conversion Tools.tbx\RasterToASCII" Date="20201020" Time="151102">RasterToASCII ./site316_cleanbed/site316_cleanbed\site316_cleanbed.tif ./site316_cleanbed/site316_cleanbed\sfe316_cleanbed.asc</Process></lineage></DataProperties></Esri></metadata>
