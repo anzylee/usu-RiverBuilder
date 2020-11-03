@@ -1,0 +1,35 @@
+<PAMDataset>
+  <Metadata domain="Esri">
+    <MDI key="PyramidResamplingType">NEAREST</MDI>
+  </Metadata>
+  <PAMRasterBand band="1">
+    <Histograms>
+      <HistItem>
+        <HistMin>598.1699829101562</HistMin>
+        <HistMax>606.3240966796875</HistMax>
+        <BucketCount>256</BucketCount>
+        <IncludeOutOfRange>1</IncludeOutOfRange>
+        <Approximate>0</Approximate>
+        <HistCounts>3|2|1|6|1|5|3|6|3|6|3|7|8|5|6|6|6|6|7|15|12|21|25|21|24|25|24|17|33|25|27|30|27|28|30|21|14|35|26|21|35|33|38|30|36|43|34|31|34|38|46|46|54|36|40|57|43|59|58|48|42|55|59|57|37|44|51|67|74|45|46|41|56|61|59|46|50|45|60|55|54|56|49|64|56|53|53|53|50|56|63|52|49|36|46|55|40|44|32|34|51|31|35|30|29|32|24|28|23|27|26|29|24|23|25|13|20|29|21|19|17|25|19|26|21|14|17|19|18|15|18|19|17|22|27|16|22|20|15|17|18|19|14|21|23|22|26|12|16|20|18|26|21|18|38|29|20|29|42|25|38|56|36|44|60|36|55|63|54|50|61|72|61|71|85|57|82|86|60|94|95|72|104|108|87|97|127|101|122|139|116|125|158|138|120|164|150|130|168|159|136|169|180|142|168|182|149|187|169|169|177|190|154|203|181|192|176|180|183|177|169|169|170|163|154|161|146|141|145|120|133|130|113|115|106|102|100|95|87|80|78|74|66|62|56|51|46|41|36|30|26|18|16|11|5|1</HistCounts>
+      </HistItem>
+      <HistItem>
+        <HistMin>0</HistMin>
+        <HistMax>-1</HistMax>
+        <BucketCount>1</BucketCount>
+        <IncludeOutOfRange>1</IncludeOutOfRange>
+        <Approximate>0</Approximate>
+        <HistCounts>0</HistCounts>
+      </HistItem>
+    </Histograms>
+    <Metadata>
+      <MDI key="STATISTICS_COVARIANCES">4.250281242563633</MDI>
+      <MDI key="STATISTICS_EXCLUDEDVALUES"></MDI>
+      <MDI key="STATISTICS_MAXIMUM">606.32409667969</MDI>
+      <MDI key="STATISTICS_MEAN">603.53415132113</MDI>
+      <MDI key="STATISTICS_MINIMUM">598.16998291016</MDI>
+      <MDI key="STATISTICS_SKIPFACTORX">1</MDI>
+      <MDI key="STATISTICS_SKIPFACTORY">1</MDI>
+      <MDI key="STATISTICS_STDDEV">2.0616210230214</MDI>
+    </Metadata>
+  </PAMRasterBand>
+</PAMDataset>

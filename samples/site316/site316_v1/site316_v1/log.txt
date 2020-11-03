@@ -10,10 +10,10 @@ Inner Channel Depth Minimum is set to: 0.02
 Median Sediment Size (D50) is set to: 0.0
 Alert! Left Valley Boundary Lateral Offset Minimum is not defined by user, use default value 10 instead.
 Left Valley Boundary Lateral Offset Minimum is set to: 10
-Left Valley Boundary Height Offset is set to: 0.1
+Left Valley Boundary Height Offset is set to: 1.0
 Alert! Right Valley Boundary Lateral Offset Minimum is not defined by user, use default value 10 instead.
 Right Valley Boundary Lateral Offset Minimum is set to: 10
-Right Valley Boundary Height Offset is set to: 0.1
+Right Valley Boundary Height Offset is set to: 1.0
 Alert! Inner Channel Average Bankfull Width is not defined by user, use default value None instead.
 Inner Channel Average Bankfull Width is set to: None
 Alert! Inner Channel Average Bankfull Depth is not defined by user, use default value None instead.
@@ -126,14 +126,14 @@ Creating Inner Channel Banks with left bank function: COS010+COS011+COS012+COS01
                              with thalweg elevation function: COS0+COS1+COS2+COS3+COS4+COS5+COS6+COS7
 Creating L1 Outer Bank with function: COS030+COS031+COS032+COS033+COS034
 Alert! Can't find function L2 Outer Bank Function in user-defined functions. Ignore function L2 Outer Bank Function.
-Creating L2 Outer Bank with constant width: 25.0
+Creating L2 Outer Bank with constant width: 13.3
 Alert! Can't find function L3 Outer Bank Function in user-defined functions. Ignore function L3 Outer Bank Function.
-Creating L3 Outer Bank with constant width: 28.0
+Creating L3 Outer Bank with constant width: 23.3
 Creating R1 Outer Bank with function: COS040+COS041+COS042+COS043+COS044
 Alert! Can't find function R2 Outer Bank Function in user-defined functions. Ignore function R2 Outer Bank Function.
-Creating R2 Outer Bank with constant width: 25.0
+Creating R2 Outer Bank with constant width: 13.3
 Alert! Can't find function R3 Outer Bank Function in user-defined functions. Ignore function R3 Outer Bank Function.
-Creating R3 Outer Bank with constant width: 28.0
+Creating R3 Outer Bank with constant width: 23.3
 Adding perlin roughness to bed.
 
 
