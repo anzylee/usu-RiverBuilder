@@ -23,7 +23,7 @@ River Slope is set to: None
 River Slope is set to: None
 User defined funtions are:
 MASK0 (ALL)
-SIN1 (7.47, 0.75, 0, MASK0)
+SIN1 (0, 1, 0, MASK0)
 COS0 (0.10848005611812067, 3.0, -2.0, MASK0)
 COS1 (0.033327507704416615, 4.0, 4.0, MASK0)
 COS2 (0.03294475786735425, 4.5, -10.0, MASK0)
