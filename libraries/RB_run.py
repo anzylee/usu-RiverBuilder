@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 
 #############################################################################################
 # Input: dir, case_name
-dir = "../samples/site316"                     # The name of directory you want to set
+dir = "../samples/site316"          # The name of directory you want to set
                                     # as a current working directory
 case_name = "site316_v3"   # Name for the case
 

@@ -1,61 +1,42 @@
 This document is to (1) prepare input txt file for RB, (2) run RB and (3) convert RB output to ASCII terrain.
 The modules referred in this document can be found in the folder "libraries"
 
-/// 1. Prepare input txt files ///
+### 1. Prepare input txt files ###
 
-1.1) Make an input csv file containing the series of interest and put it in libraries/series folder
+(1) Make an input csv file containing the series of interest and put it in libraries/series folder
      : You can make a new directory with different name but should be consistent in using this name.
-
-1.2) Open "signal_to_riverbuilder.py" and run the script.
-
-1.3) Using GUI, assign the csv file and run the program. 
+(2) Open "signal_to_riverbuilder.py" and run the script.
+(3) Using GUI, assign the csv file and run the program. 
      : It will generate multiple files including csv files of harmonic components 
        and figures for each series listed in the input csv file inside the folder, series.
-
-1.4) Open "Git Bash" (Windows)
-
-1.5) Change the current directory to "libraries"
-
-1.6) Execute the following line in Git Bash:
-
+     : Note that the phase in output txt created from this python script is not accurate.
+     : Thus, only use the output csv file.
+(4) Open "Git Bash" (Windows)
+(5) Change the current directory to "libraries"
+(6) Execute the following line in Git Bash:
 	$ python harmonicParser.py ./series/INPUT_SERIES_BY_POWER.csv ./power/OUTPUT_POWER.txt
-
 	For example,
 	$ python harmonicParser.py ./series/Wbf_m_harmonics_by_power.csv ./power/W_bf.txt
-
-1.7) If you want to reduce the series by half, execute
-
+(7) If you want to reduce the series by half, execute
 	$ python ampChanger.py ./power/OUTPUT_POWER.txt 0.5 ./power/OUTPUT_POWER_half.txt
-
 	For example,
 	$ python ampChanger.py ./power/W_bf.txt 0.5 ./power/W_bf_half.txt
 
+### 2. How to make an archetype using RB ###
 
-/// 2. How to make an archetype using RB ///
-
-2.1) Open "Git Bash" (Windows)
-
-2.2) Upgrade your numpy by typing in 
+(1) Open "Git Bash" (Windows)
+(2) Upgrade your numpy by typing in 
 	$ pip install --upgrade numpy
-
-2.3) Create your river archetype:
-
+(3) Create your river archetype:
 	$ python.exe -m riverbuilder sample.txt sample
 	$ python.exe -m riverbuilder site316_5x_roughbed.txt site316_roughbed
+(4) Open "RB_run.py" in libraries folder with PyCharm
+(5) Specify the names of riverbuilder input format txt file and output folder name
+(6) Run "RB_run.py": it will run RB using input txt file
 
-2.4) Open "RB_run.py" in libraries folder with PyCharm
+### 3. How to convert RB output to ASCII terrain ###
 
-2.5) Specify the names of riverbuilder input format txt file and output folder name
-
-2.6) Run "RB_run.py": it will run RB using input txt file
-
-
-/// 3. How to convert RB output to ASCII terrain ///
-
-3.1) Open "RB_terrain.py" in libraries folder with PyCharm
-
-3.2) Specify the names of output ASCII name
-
-3.3) Run "RB_terrain.py"
-
-3.4) Check your RB output folder
+(1) Open "RB_terrain.py" in libraries folder with PyCharm
+(2) Specify the names of output ASCII name
+(3) Run "RB_terrain.py"
+(4) Check your RB output folder
