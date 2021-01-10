@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en"><Esri><CreaDate>20210110</CreaDate><CreaTime>08180800</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce><DataProperties><lineage><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Image Analyst Tools.tbx\RasterCalculator" Date="20210110" Time="081808">RasterCalculator Con( "T1_h_013_clip.tif"&gt;0, 1,0) C:\Users\waterlab\Documents\usu-RiverBuilder\sfe82_gcs_analysis\Tuflow_output_rasters\h_013</Process></lineage></DataProperties></Esri></metadata>
