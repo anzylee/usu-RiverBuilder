@@ -2,11 +2,11 @@
 
 ## 0. Preparation ###
 
-(0) Create a folder, sfeXX_gcs_analysis in usu-RiverBuilder folder
-(1) Create a folder, Tuflow_output_rasters in sfeXX_gcs_analysis folder
+(0) Create a folder, "sfeXX_gcs_analysis" in usu-RiverBuilder folder
+(1) Create a folder, "Tuflow_output_rasters" in sfeXX_gcs_analysis folder
 (2) Put clipeed WSE files (e.g. F:\tuflow_runs\sfe_XX_tuflow\results\XXX\grids\clipped) dlineating baseflow/bf flow 
     in Tuflow_output_rasters folder.
-(3) Put the terrain file (sfe_XX) in sfeXX_gcs_analysis and clip polygon (2d_trim_sfe_XX) in gis folder
+(3) Create a folder, "gis". Put the terrain file (sfe_XX) in sfeXX_gcs_analysis and clip polygon (2d_trim_sfe_XX) in gis folder
 (4) Open ArcGIS Pro and load (2) and (3)
 (5) Convert WSE rasters to polygon
     1) https://pro.arcgis.com/en/pro-app/latest/tool-reference/spatial-analyst/raster-calculator.htm

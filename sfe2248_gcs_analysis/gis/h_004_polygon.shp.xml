@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en"><Esri><CreaDate>20210120</CreaDate><CreaTime>01511500</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce><DataProperties><lineage><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Conversion Tools.tbx\RasterToPolygon" Date="20210120" Time="015115">RasterToPolygon h_004 F:\usu-RiverBuilder\sfe2248_gcs_analysis\gis\h_004_polygon.shp SIMPLIFY VALUE SINGLE_OUTER_PART #</Process></lineage></DataProperties></Esri></metadata>
