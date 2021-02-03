@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en"><Esri><CreaDate>20210202</CreaDate><CreaTime>21100800</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce><DataProperties><lineage><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\3D Analyst Tools.tbx\TinRaster" Date="20210202" Time="211008">TinRaster ..\samples\sfe_316\sfe_316\sfe_316\sfe_316_TIN ..\samples\sfe_316\sfe_316\sfe_316\sfe_316.tif "Floating Point" Linear "CELLSIZE 1" 1 0.7534136546244583</Process></lineage></DataProperties></Esri></metadata>

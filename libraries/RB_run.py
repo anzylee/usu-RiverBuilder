@@ -9,9 +9,9 @@ import matplotlib.pyplot as plt
 
 #############################################################################################
 # Input: dir, case_name
-dir = "../samples/sfe322"          # The name of directory you want to set
+dir = "../samples/sfe_316"          # The name of directory you want to set
                                     # as a current working directory
-case_name = "sfe322_v0"   # Name for the case
+case_name = "sfe_316"   # Name for the case
 
 #############################################################################################
 # Optional inputs: fname, outfolder, log
