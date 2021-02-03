@@ -3,7 +3,7 @@ Datum is set to: 500.0
 Length is set to: 184.0
 X Resolution is set to: 0.2
 Channel XS Points is set to: 21
-Valley Slope (Sv) is set to: 0.0223
+Valley Slope (Sv) is set to: 0.008
 Critical Shields Stress (t*50) is set to: 0.0
 Inner Channel Lateral Offset Minimum is set to: 2.2
 Inner Channel Depth Minimum is set to: 0.02

@@ -1,6 +1,6 @@
 River Channel Data:
 Sinuosity:1.009
-Channel Slope:0.004424554596014863
+Channel Slope:0.0015872841600053321
 Average Width of Inner Channel:5.419
 Average Height of Inner Channel:0.351
 Coefficient of Variation (W_ic):0.236
@@ -12,6 +12,6 @@ Average Width Offset of R2 Outer Bank is: 20.0
 
 Valley Data:
 Sinuosity:1.0
-Valley Slope:0.0223
+Valley Slope:0.008
 Average Width of L0 Valley Level is: 37.4
 Average Width of R0 Valley Level is: 37.4
