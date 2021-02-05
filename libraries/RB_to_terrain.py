@@ -11,8 +11,8 @@ import pandas
 
 #############################################################################################
 # Input variables: RB_path, asc_name, RB_unit, asc_unit, cell_size, execute
-RB_path ="..\samples\sfe_316\sfe_316\sfe_316"   # path to SRVtopo directory
-asc_name = 'sfe_316'                                # Define the name of ascii terrain
+RB_path ="..\samples\sfe_316\sfe_316_v5\sfe_316_v5"   # path to SRVtopo directory
+asc_name = 'sfe_316_v5'                                # Define the name of ascii terrain
 
 RB_unit = 'meter'                # Unit of the river archetype
 asc_unit = 'meter'              # Unit of the ascii terrain
