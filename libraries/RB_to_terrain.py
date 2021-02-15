@@ -11,8 +11,7 @@ import pandas
 
 #############################################################################################
 # Input variables: RB_path, asc_name, RB_unit, asc_unit, cell_size, execute
-RB_path ="..\samples\sfe_316\sfe_316_v5\sfe_316_v5"   # path to SRVtopo directory
-asc_name = 'sfe_316_v5'                                # Define the name of ascii terrain
+case_name = 'sfe_316_v7'                                # Define the name of terrain
 
 RB_unit = 'meter'                # Unit of the river archetype
 asc_unit = 'meter'              # Unit of the ascii terrain
@@ -25,6 +24,7 @@ execute = np.array([1,          # 1 if you want to execute "Table to point",
 
 #############################################################################################
 # Workspace setting
+RB_path = os.path.abspath("..\samples\sfe_316\\"+ case_name +"\\" + case_name)  # path to SRVtopo directory
 arcpy.env.workspace = RB_path
 sr = arcpy.SpatialReference(3857, 115700) #  WGS_1984_web_mercator, WGS 1984
 #sr = arcpy.SpatialReference(4759, 115700) # WGS 1984, WGS 1984
@@ -44,8 +44,8 @@ conv_factor = asc_conv/RB_conv
 if execute[0] == 1:
     # 0 Unit conversion
     print('1. Converting units')
-    in_Table = arcpy.env.workspace + "/SRVtopo.csv"
-    out_Table = arcpy.env.workspace + "/SRVtopo_xyz.csv"
+    in_Table = arcpy.env.workspace + "\\SRVtopo.csv"
+    out_Table = arcpy.env.workspace + "\\SRVtopo_xyz.csv"
     df = pandas.read_csv(in_Table)
     offset = 100 # to prevent minus values
     df.X = df.X*conv_factor +offset
@@ -55,7 +55,7 @@ if execute[0] == 1:
 
     # 1 Table to point
     in_Table = arcpy.env.workspace+"/SRVtopo_xyz.csv"
-    output_point = asc_name+'_xyz.shp'
+    output_point = case_name+'_xyz.shp'
     x_coords = "X"
     y_coords = "Y"
     z_coords = "Z"
@@ -74,8 +74,8 @@ if execute[0] == 1:
 #############################################################################################
 if execute[1] == 1:
     # 2 Create TIN
-    in_point = asc_name+'_xyz.shp'
-    output_TIN = asc_name+'_TIN'
+    in_point = case_name+'_xyz.shp'
+    output_TIN = case_name+'_TIN'
 
     print("3. Running Create TIN")
     arcpy.ddd.CreateTin(output_TIN, sr, in_point+" Z masspoints")
@@ -83,8 +83,8 @@ if execute[1] == 1:
 #############################################################################################
 if execute[2] == 1:
     # 3 TIN to Raster
-    in_TIN = asc_name+'_TIN'
-    out_tif = asc_name+'.tif'
+    in_TIN = case_name+'_TIN'
+    out_tif = case_name+'.tif'
     # Set variables for TIN to Raster
     dataType = "FLOAT"  # Default
     method = "LINEAR"  # Default
@@ -98,8 +98,8 @@ if execute[2] == 1:
 
 if execute[3] == 1:
     # 4 Raster to ascii
-    in_tif = asc_name+'.tif'
-    out_ascii = asc_name + '.asc'
+    in_tif = case_name+'.tif'
+    out_ascii = case_name + '.asc'
 
     print("5. Running Raster To ASCII")
     arcpy.RasterToASCII_conversion(in_tif, out_ascii)
