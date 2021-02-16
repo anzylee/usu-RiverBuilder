@@ -11,7 +11,8 @@ import pandas
 
 #############################################################################################
 # Input variables: RB_path, asc_name, RB_unit, asc_unit, cell_size, execute
-case_name = 'sfe_316_v8'                                # Define the name of terrain
+case_name = 'sfe_322_v0'                                # Define the name of terrain
+NAME = 'sfe_322'
 
 RB_unit = 'meter'                # Unit of the river archetype
 asc_unit = 'meter'              # Unit of the ascii terrain
@@ -24,7 +25,7 @@ execute = np.array([1,          # 1 if you want to execute "Table to point",
 
 #############################################################################################
 # Workspace setting
-RB_path = os.path.abspath("..\samples\sfe_316\\"+ case_name +"\\" + case_name)  # path to SRVtopo directory
+RB_path = os.path.abspath("..\samples\\"+ NAME + "\\" + case_name +"\\" + case_name)  # path to SRVtopo directory
 arcpy.env.workspace = RB_path
 sr = arcpy.SpatialReference(3857, 115700) #  WGS_1984_web_mercator, WGS 1984
 #sr = arcpy.SpatialReference(4759, 115700) # WGS 1984, WGS 1984
