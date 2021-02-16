@@ -11,7 +11,7 @@ import pandas
 
 #############################################################################################
 # Input variables: RB_path, asc_name, RB_unit, asc_unit, cell_size, execute
-case_name = 'sfe_316_v7'                                # Define the name of terrain
+case_name = 'sfe_316_v8'                                # Define the name of terrain
 
 RB_unit = 'meter'                # Unit of the river archetype
 asc_unit = 'meter'              # Unit of the ascii terrain
