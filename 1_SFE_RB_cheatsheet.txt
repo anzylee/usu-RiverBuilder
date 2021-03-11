@@ -6,6 +6,8 @@ The modules referred in this document can be found in the folder "libraries"
 (1) Make an input csv file containing the series of interest and put it in sfe_XXX_RB folder
      : an example csv file is in series folder
      : You can make a new directory with different name but should be consistent in using this name.
+     : Make sure you copy "values" from 0_SFE_XXX_RiverBuilder_metrics file
+     : keep the decimal points less than 5.
 (2) Open "signal_to_riverbuilder.py" and run the script.
 (3) Using GUI, assign the csv file and run the program. 
      : Index field = Station_m or a field name for distance

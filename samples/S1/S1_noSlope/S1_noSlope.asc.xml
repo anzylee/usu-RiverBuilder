@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en"><Esri><CreaDate>20210311</CreaDate><CreaTime>13190300</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce><DataProperties><lineage><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Conversion Tools.tbx\RasterToASCII" Date="20210311" Time="131903">RasterToASCII F:\usu-RiverBuilder\samples\S1\S1_noSlope\S1_noSlope.tif F:\usu-RiverBuilder\samples\S1\S1_noSlope\S1_noSlope.asc</Process></lineage></DataProperties></Esri></metadata>
