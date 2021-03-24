@@ -1,0 +1,35 @@
+<PAMDataset>
+  <Metadata domain="Esri">
+    <MDI key="PyramidResamplingType">NEAREST</MDI>
+  </Metadata>
+  <PAMRasterBand band="1">
+    <Histograms>
+      <HistItem>
+        <HistMin>598.69580078125</HistMin>
+        <HistMax>603.3524169921875</HistMax>
+        <BucketCount>256</BucketCount>
+        <IncludeOutOfRange>1</IncludeOutOfRange>
+        <Approximate>0</Approximate>
+        <HistCounts>17|18|21|15|19|19|19|16|14|26|18|21|22|19|18|25|19|18|23|29|17|17|22|21|29|30|50|98|102|80|74|78|112|104|90|98|46|53|32|32|42|33|22|31|36|19|23|34|72|77|99|105|132|123|108|117|122|128|153|119|117|96|88|79|81|97|97|80|73|96|57|91|86|90|94|85|76|90|74|67|81|86|91|72|86|76|79|99|82|85|104|101|108|105|122|138|117|115|106|102|95|109|82|74|71|55|50|47|53|47|49|57|42|62|62|39|36|59|43|57|46|49|65|56|41|48|58|57|41|60|50|41|42|56|61|52|53|45|45|50|51|53|48|60|62|44|50|46|41|48|54|69|51|82|101|119|121|132|149|145|175|197|199|204|215|222|235|252|273|267|275|281|322|301|309|312|311|332|345|359|361|362|392|402|393|404|435|412|435|458|459|477|490|506|509|525|525|546|551|560|575|562|553|561|553|558|540|536|518|514|501|487|481|454|464|440|432|416|410|404|370|388|364|356|334|332|318|305|294|284|267|254|242|233|215|208|190|184|171|158|149|142|123|117|110|96|89|78|69|57|49|42|28|20|10|1</HistCounts>
+      </HistItem>
+      <HistItem>
+        <HistMin>0</HistMin>
+        <HistMax>-1</HistMax>
+        <BucketCount>1</BucketCount>
+        <IncludeOutOfRange>1</IncludeOutOfRange>
+        <Approximate>0</Approximate>
+        <HistCounts>0</HistCounts>
+      </HistItem>
+    </Histograms>
+    <Metadata>
+      <MDI key="STATISTICS_COVARIANCES">1.090943544178507</MDI>
+      <MDI key="STATISTICS_EXCLUDEDVALUES"></MDI>
+      <MDI key="STATISTICS_MAXIMUM">603.35241699219</MDI>
+      <MDI key="STATISTICS_MEAN">601.8509748821</MDI>
+      <MDI key="STATISTICS_MINIMUM">598.69580078125</MDI>
+      <MDI key="STATISTICS_SKIPFACTORX">1</MDI>
+      <MDI key="STATISTICS_SKIPFACTORY">1</MDI>
+      <MDI key="STATISTICS_STDDEV">1.044482428851</MDI>
+    </Metadata>
+  </PAMRasterBand>
+</PAMDataset>

@@ -11,12 +11,12 @@ import pandas as pd
 
 #############################################################################################
 # Input variables: RB_path, asc_name, RB_unit, asc_unit, cell_size, execute
-case_name = 'sfe_209_v1'         # The name of terrain
-NAME = 'sfe_209'                 # Name of the case
+case_name = 'sfe_4523_v1'         # The name of terrain
+NAME = 'sfe_4523'                 # Name of the case
 
 RB_unit = 'meter'                # Unit of the river archetype
 asc_unit = 'meter'              # Unit of the ascii terrain
-cell_size = '1'                 # Cell size of ascii terrain in asc_unit
+#cell_size = '1'                 # Cell size of ascii terrain in asc_unit
 
 params = pd.read_excel('F:/tuflow-wf_python3/parameters_sfe.xlsx')
 for ii in range(0,params.site.__len__()+1):

@@ -1,0 +1,35 @@
+<PAMDataset>
+  <Metadata domain="Esri">
+    <MDI key="PyramidResamplingType">NEAREST</MDI>
+  </Metadata>
+  <PAMRasterBand band="1">
+    <Histograms>
+      <HistItem>
+        <HistMin>591.3363037109375</HistMin>
+        <HistMax>604.7279663085938</HistMax>
+        <BucketCount>256</BucketCount>
+        <IncludeOutOfRange>1</IncludeOutOfRange>
+        <Approximate>0</Approximate>
+        <HistCounts>7|8|9|5|9|5|9|17|17|20|17|22|6|13|14|27|20|14|17|21|17|21|29|17|17|29|28|36|31|38|22|33|30|26|35|21|29|40|29|43|34|50|54|49|54|57|39|53|33|46|42|32|30|42|36|33|37|42|50|40|41|34|39|41|32|44|52|53|60|85|67|80|80|82|65|65|60|70|63|69|70|67|64|59|72|89|75|92|92|103|88|110|78|113|106|94|99|71|101|84|89|85|85|90|92|123|112|121|154|170|140|151|165|173|176|183|192|197|191|213|226|240|234|245|246|250|248|236|258|236|243|237|244|244|251|235|241|252|266|247|246|263|290|277|286|285|295|279|274|299|276|287|295|290|277|265|274|280|278|263|265|248|248|254|225|219|246|243|221|221|214|244|234|215|208|230|228|207|213|213|232|222|215|202|215|226|221|202|202|222|221|199|201|209|211|206|209|200|207|203|206|199|201|197|208|188|200|196|201|190|204|189|187|194|200|191|191|183|188|189|188|186|185|188|180|179|182|177|188|175|181|184|175|173|183|172|171|162|150|150|130|124|115|108|97|89|81|70|61|52|45|35|27|17|8|1</HistCounts>
+      </HistItem>
+      <HistItem>
+        <HistMin>0</HistMin>
+        <HistMax>-1</HistMax>
+        <BucketCount>1</BucketCount>
+        <IncludeOutOfRange>1</IncludeOutOfRange>
+        <Approximate>0</Approximate>
+        <HistCounts>0</HistCounts>
+      </HistItem>
+    </Histograms>
+    <Metadata>
+      <MDI key="STATISTICS_COVARIANCES">7.433340476258141</MDI>
+      <MDI key="STATISTICS_EXCLUDEDVALUES"></MDI>
+      <MDI key="STATISTICS_MAXIMUM">604.72796630859</MDI>
+      <MDI key="STATISTICS_MEAN">599.6279255945</MDI>
+      <MDI key="STATISTICS_MINIMUM">591.33630371094</MDI>
+      <MDI key="STATISTICS_SKIPFACTORX">1</MDI>
+      <MDI key="STATISTICS_SKIPFACTORY">1</MDI>
+      <MDI key="STATISTICS_STDDEV">2.7264153161722</MDI>
+    </Metadata>
+  </PAMRasterBand>
+</PAMDataset>

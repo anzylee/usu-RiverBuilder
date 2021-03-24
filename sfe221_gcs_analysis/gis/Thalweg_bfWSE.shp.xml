@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en"><Esri><CreaDate>20210317</CreaDate><CreaTime>00011400</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce><DataProperties><lineage><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Spatial Analyst Tools.tbx\ExtractValuesToPoints" Date="20210317" Time="000114">ExtractValuesToPoints Thalweg_nodes T1_13_h_clip.tif F:\usu-RiverBuilder\sfe221_gcs_analysis\gis\Thalweg_bfWSE.shp INTERPOLATE VALUE_ONLY</Process></lineage></DataProperties></Esri></metadata>

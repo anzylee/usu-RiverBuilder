@@ -1,0 +1,35 @@
+<PAMDataset>
+  <Metadata domain="Esri">
+    <MDI key="PyramidResamplingType">NEAREST</MDI>
+  </Metadata>
+  <PAMRasterBand band="1">
+    <Histograms>
+      <HistItem>
+        <HistMin>596.009033203125</HistMin>
+        <HistMax>602.927490234375</HistMax>
+        <BucketCount>256</BucketCount>
+        <IncludeOutOfRange>1</IncludeOutOfRange>
+        <Approximate>0</Approximate>
+        <HistCounts>1|0|0|3|0|2|6|1|2|1|1|4|2|2|3|4|5|6|4|8|5|5|6|2|7|8|7|12|11|4|11|14|13|24|15|17|18|25|19|27|28|30|28|30|23|21|37|41|45|53|29|43|42|51|56|37|42|44|58|44|36|34|40|43|51|27|31|37|35|44|29|24|34|41|23|26|29|32|22|25|24|35|33|25|12|32|21|28|25|28|27|34|37|39|38|44|40|44|42|57|61|55|68|74|63|86|94|90|97|97|108|96|114|93|109|120|108|130|127|120|117|139|120|109|122|146|148|181|183|183|193|182|187|182|186|190|182|201|183|197|200|194|192|201|185|206|180|187|198|175|183|167|168|139|143|151|139|139|133|133|125|122|142|112|138|153|136|153|166|162|147|163|148|149|156|148|162|148|163|138|149|156|155|142|148|147|134|143|127|134|131|136|138|128|125|128|125|126|133|118|125|114|111|113|110|108|104|104|98|95|90|108|94|80|90|87|79|95|80|79|82|80|80|75|78|71|67|70|67|64|64|60|57|64|55|56|59|50|46|50|50|41|45|41|39|34|32|29|28|19|20|14|13|7|5|1</HistCounts>
+      </HistItem>
+      <HistItem>
+        <HistMin>0</HistMin>
+        <HistMax>-1</HistMax>
+        <BucketCount>1</BucketCount>
+        <IncludeOutOfRange>1</IncludeOutOfRange>
+        <Approximate>0</Approximate>
+        <HistCounts>0</HistCounts>
+      </HistItem>
+    </Histograms>
+    <Metadata>
+      <MDI key="STATISTICS_COVARIANCES">1.712212526996926</MDI>
+      <MDI key="STATISTICS_EXCLUDEDVALUES"></MDI>
+      <MDI key="STATISTICS_MAXIMUM">602.92749023438</MDI>
+      <MDI key="STATISTICS_MEAN">600.18379147997</MDI>
+      <MDI key="STATISTICS_MINIMUM">596.00903320313</MDI>
+      <MDI key="STATISTICS_SKIPFACTORX">1</MDI>
+      <MDI key="STATISTICS_SKIPFACTORY">1</MDI>
+      <MDI key="STATISTICS_STDDEV">1.3085153904318</MDI>
+    </Metadata>
+  </PAMRasterBand>
+</PAMDataset>
