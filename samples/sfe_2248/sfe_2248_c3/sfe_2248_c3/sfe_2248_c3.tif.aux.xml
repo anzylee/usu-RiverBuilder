@@ -1,0 +1,35 @@
+<PAMDataset>
+  <Metadata domain="Esri">
+    <MDI key="PyramidResamplingType">NEAREST</MDI>
+  </Metadata>
+  <PAMRasterBand band="1">
+    <Histograms>
+      <HistItem>
+        <HistMin>598.0960083007813</HistMin>
+        <HistMax>605.0859985351563</HistMax>
+        <BucketCount>256</BucketCount>
+        <IncludeOutOfRange>1</IncludeOutOfRange>
+        <Approximate>0</Approximate>
+        <HistCounts>6|8|10|10|12|12|8|16|16|18|18|26|30|28|26|20|20|28|22|24|24|24|26|42|46|50|78|70|40|60|42|26|36|50|40|36|38|38|40|58|38|40|36|36|46|36|38|34|32|30|36|38|36|44|40|42|36|42|42|40|42|42|42|44|52|50|50|44|48|42|36|32|32|28|26|28|26|42|32|32|34|34|30|26|26|28|24|24|20|26|22|26|34|32|32|28|24|28|28|28|28|26|26|28|24|24|32|32|32|34|32|28|22|22|22|22|20|22|22|22|30|32|32|34|32|32|22|22|22|22|20|22|22|22|28|32|30|34|32|34|26|20|22|22|22|22|22|20|24|32|34|32|30|34|30|22|22|20|22|22|22|22|20|30|34|32|32|32|32|24|22|20|22|22|22|22|20|26|34|32|34|30|32|28|22|28|30|46|48|60|62|74|76|84|100|98|110|112|112|122|128|138|138|146|164|158|180|176|188|192|200|212|206|216|220|220|244|238|254|256|250|260|242|248|226|232|210|206|210|192|190|180|168|170|154|158|138|132|134|116|118|106|98|90|84|78|68|64|54|42|44|30|26|16|10|2</HistCounts>
+      </HistItem>
+      <HistItem>
+        <HistMin>0</HistMin>
+        <HistMax>-1</HistMax>
+        <BucketCount>1</BucketCount>
+        <IncludeOutOfRange>1</IncludeOutOfRange>
+        <Approximate>0</Approximate>
+        <HistCounts>0</HistCounts>
+      </HistItem>
+    </Histograms>
+    <Metadata>
+      <MDI key="STATISTICS_COVARIANCES">3.783631229697747</MDI>
+      <MDI key="STATISTICS_EXCLUDEDVALUES"></MDI>
+      <MDI key="STATISTICS_MAXIMUM">605.08599853516</MDI>
+      <MDI key="STATISTICS_MEAN">602.8078648229</MDI>
+      <MDI key="STATISTICS_MINIMUM">598.09600830078</MDI>
+      <MDI key="STATISTICS_SKIPFACTORX">1</MDI>
+      <MDI key="STATISTICS_SKIPFACTORY">1</MDI>
+      <MDI key="STATISTICS_STDDEV">1.945155836867</MDI>
+    </Metadata>
+  </PAMRasterBand>
+</PAMDataset>

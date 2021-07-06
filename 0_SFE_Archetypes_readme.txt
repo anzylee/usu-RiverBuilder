@@ -50,6 +50,10 @@
 	- Use "spatial_series" tab
 (6) Follow the steps in "cheatsheet" in the main RB folder.
 
+(+) Open field survey excel sheet for each site and calculate the total number of particles exceeding 1m.
+The total number of elements is L/W*n^2 where L is the length of reach, W is the average bankfull width
+and n is the average number of boulders exceeding 1m. Bedrock is not inlcuded.
+
 (+) From Xavier's analysis of baseflow Zd, it looks like the "power method" performed best at matching the overall pool-riffle morphology in terms of total amplitude. This is the one with 8 harmonics.
 Similarly, the power method worked best for baseflow W series. Has 38 harmonics
 

@@ -1,0 +1,35 @@
+<PAMDataset>
+  <Metadata domain="Esri">
+    <MDI key="PyramidResamplingType">NEAREST</MDI>
+  </Metadata>
+  <PAMRasterBand band="1">
+    <Histograms>
+      <HistItem>
+        <HistMin>594.6484985351563</HistMin>
+        <HistMax>610.4407958984375</HistMax>
+        <BucketCount>256</BucketCount>
+        <IncludeOutOfRange>1</IncludeOutOfRange>
+        <Approximate>0</Approximate>
+        <HistCounts>15|10|19|13|16|14|15|19|14|16|18|17|17|18|20|18|17|20|22|21|21|21|28|24|27|25|30|86|62|65|47|42|41|48|32|43|35|30|43|34|38|37|34|29|35|36|28|41|31|32|43|37|36|30|38|37|32|39|43|48|103|71|69|69|53|55|54|49|55|47|43|46|44|52|42|56|47|47|44|44|47|47|83|80|66|61|70|50|39|50|36|42|41|39|35|40|47|48|35|35|30|24|36|30|29|30|32|41|43|37|28|31|33|30|24|30|33|28|34|39|42|35|28|32|24|31|31|29|30|32|38|42|37|32|29|29|32|24|29|34|27|36|43|40|27|34|30|30|26|32|35|23|37|42|38|36|34|27|26|34|28|30|33|29|36|45|35|32|32|32|49|36|50|50|53|65|73|77|74|81|85|86|97|100|103|112|116|117|120|110|117|116|108|112|107|113|110|115|109|114|109|111|108|105|104|104|107|104|103|100|110|111|102|99|102|92|104|91|103|97|105|93|98|95|98|98|96|93|98|96|93|99|93|94|97|91|93|91|93|92|85|77|74|68|62|57|50|48|37|35|28|23|18|12|7|1</HistCounts>
+      </HistItem>
+      <HistItem>
+        <HistMin>0</HistMin>
+        <HistMax>-1</HistMax>
+        <BucketCount>1</BucketCount>
+        <IncludeOutOfRange>1</IncludeOutOfRange>
+        <Approximate>0</Approximate>
+        <HistCounts>0</HistCounts>
+      </HistItem>
+    </Histograms>
+    <Metadata>
+      <MDI key="STATISTICS_COVARIANCES">18.88008338734696</MDI>
+      <MDI key="STATISTICS_EXCLUDEDVALUES"></MDI>
+      <MDI key="STATISTICS_MAXIMUM">610.44079589844</MDI>
+      <MDI key="STATISTICS_MEAN">604.15683391852</MDI>
+      <MDI key="STATISTICS_MINIMUM">594.64849853516</MDI>
+      <MDI key="STATISTICS_SKIPFACTORX">1</MDI>
+      <MDI key="STATISTICS_SKIPFACTORY">1</MDI>
+      <MDI key="STATISTICS_STDDEV">4.3451217920039</MDI>
+    </Metadata>
+  </PAMRasterBand>
+</PAMDataset>

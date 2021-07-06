@@ -1,5 +1,5 @@
 #############################################################################################
-# RB_run.py runs
+# RB_run.py
 #   Written by Anzy Lee, Postdoctoral Scholar, Utah State University
 #   Date: 10/21/2020
 #############################################################################################
@@ -10,16 +10,15 @@ import matplotlib.pyplot as plt
 
 #############################################################################################
 # Input: dir, case_name
-dir = "../samples/sfe_4523"          # The name of directory you want to set
-                                    # as a current working directory
-case_name = "sfe_4523_v1"   # Name for the case
+case_name = "Boulder2"   # Case Name
+dir = "../samples/boulder"      # Folder Name
 
 #############################################################################################
 # Optional inputs: fname, outfolder, log
 os.chdir(dir)
-fname = case_name + "/" + case_name + ".txt"
-outfolder = case_name + "/" + case_name
-log = case_name + "/" + case_name + "_log.txt"
+fname = case_name + ".txt"
+outfolder = case_name
+log = case_name + "_log.txt"
 #############################################################################################
 # Run RiverBuilder
 river.buildRiver(fname, outfolder, log)

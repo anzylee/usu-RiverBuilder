@@ -1,0 +1,21 @@
+# Case names
+
+(1) sfe_XX_vv0 
+ - Base + Bankfull
+ - Bed roughness is used
+
+(2) sfe_XX_vv1 
+ - Bankfull
+ - Bed roughness is used
+
+(3) sfe_XX_ee1
+ - Bankfull
+ - Bed element is used
+ - variation of sfe_xx_vv1
+
+## uses previous Harmonic code
+(+) sfe_XX_c*, r* 
+ - Bankfull
+ - c1: only bed roughness, c2: bed roughness + width, c3: bed roughness + elev
+ - r2: only width, r3: only elev
+

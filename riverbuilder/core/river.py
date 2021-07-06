@@ -968,9 +968,9 @@ def buildRiver(fname, outfolder, log):
         plt.xlabel('X (Distance Downstream)')
         plt.ylabel('Y')
         plt.legend()
-        for item in ([ax.title, ax.xaxis.label, ax.yaxis.label] +
-                     ax.get_xticklabels() + ax.get_yticklabels()):
-            item.set_fontsize(40)
+        #for item in ([ax.title, ax.xaxis.label, ax.yaxis.label] +
+        #             ax.get_xticklabels() + ax.get_yticklabels()):
+        #    item.set_fontsize(40)
         plt.savefig(outfolder+'/SRVlevels_xy')
 
         fig, ax = plt.subplots(1, 1, figsize=[19.2, 14.4], dpi=400)
@@ -981,9 +981,9 @@ def buildRiver(fname, outfolder, log):
         plt.xlabel('X (Distance Downstream)')
         plt.ylabel('Z')
         plt.legend()
-        for item in ([ax.title, ax.xaxis.label, ax.yaxis.label] +
-                     ax.get_xticklabels() + ax.get_yticklabels()):
-            item.set_fontsize(40)
+        #for item in ([ax.title, ax.xaxis.label, ax.yaxis.label] +
+        #             ax.get_xticklabels() + ax.get_yticklabels()):
+        #    item.set_fontsize(40)
         plt.savefig(outfolder+'/SRVlevels_xz')
 
         fig, ax = plt.subplots(2, 1, sharex=True)

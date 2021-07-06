@@ -1,0 +1,103 @@
+sfe_81_c2/sfe_81_c2_log.txt
+Datum is set to: 500.0
+Length is set to: 220.0
+X Resolution is set to: 0.2
+Channel XS Points is set to: 21
+Valley Slope (Sv) is set to: 0.0135
+Critical Shields Stress (t*50) is set to: 0.0
+Inner Channel Lateral Offset Minimum is set to: 7.5316
+Inner Channel Depth Minimum is set to: 1.307
+Median Sediment Size (D50) is set to: 0.0
+Left Valley Boundary Lateral Offset Minimum is set to: 10.0
+Left Valley Boundary Height Offset is set to: 1.0
+Right Valley Boundary Lateral Offset Minimum is set to: 10.0
+Right Valley Boundary Height Offset is set to: 1.0
+Alert! Inner Channel Average Bankfull Width is not defined by user, use default value None instead.
+Inner Channel Average Bankfull Width is set to: None
+Alert! Inner Channel Average Bankfull Depth is not defined by user, use default value None instead.
+Inner Channel Average Bankfull Depth is set to: None
+Alert! River Slope is not defined by user, use default value None instead.
+River Slope is set to: None
+River Slope is set to: None
+User defined funtions are:
+MASK0 (ALL)
+SIN1 (-30, 1.4, 0, MASK0)
+SIN0 (0.4332082754946561,1.0,-2.04,MASK0)
+SIN000 (0.6849859919293791,2.0,3.09,MASK0)
+SIN2 (0.6317035040852612,3.0,1.33,MASK0)
+SIN3 (0.8997838235984819,4.0,-2.56,MASK0)
+SIN4 (0.35659160711108684,5.0,-1.84,MASK0)
+SIN5 (0.29714383060989663,6.0,-0.1,MASK0)
+SIN6 (0.1808221880178644,7.0,0.1,MASK0)
+SIN7 (0.311235743392044,8.0,-3.05,MASK0)
+SIN8 (0.6534536694668907,9.0,-1.01,MASK0)
+SIN9 (0.21785696649503322,10.0,0.43,MASK0)
+SIN10 (0.37674277529745126,11.0,3.07,MASK0)
+SIN11 (0.399432800446145,12.0,-0.98,MASK0)
+SIN12 (0.19387213935513536,13.0,-0.59,MASK0)
+SIN13 (0.1353303399457634,13.5,-2.84,MASK0)
+SIN14 (0.1677211587778727,18.0,-2.35,MASK0)
+SIN15 (0.14787441868331494,18.5,0.23,MASK0)
+SIN16 (0.13022245659192452,22.5,0.93,MASK0)
+SIN17 (0.10528930537873785,20.5,-0.44,MASK0)
+SIN18 (0.1423729568648796,16.0,-0.35,MASK0)
+SIN19 (0.39943280044614504,12.0,-0.98,MASK0)
+SIN20 (0.37674277529745126,11.0,3.07,MASK0)
+SIN21 (0.21785696649503317,10.0,0.43,MASK0)
+SIN22 (0.6534536694668907,9.0,-1.01,MASK0)
+SIN23 (0.3112357433920441,8.0,-3.05,MASK0)
+SIN24 (0.18082218801786443,7.0,0.1,MASK0)
+SIN25 (0.2971438306098967,6.0,-0.1,MASK0)
+SIN26 (0.35659160711108684,5.0,-1.84,MASK0)
+SIN27 (0.8997838235984817,4.0,-2.56,MASK0)
+SIN28 (0.6317035040852612,3.0,1.33,MASK0)
+SIN29 (0.684985991929379,2.0,3.09,MASK0)
+SIN30 (0.43320827549465624,1.0,-2.04,MASK0)
+SIN010 (0.4332082754946561,1.0,-2.04,MASK0)
+SIN011 (0.6849859919293791,2.0,3.09,MASK0)
+SIN012 (0.6317035040852612,3.0,1.33,MASK0)
+SIN013 (0.8997838235984819,4.0,-2.56,MASK0)
+SIN014 (0.35659160711108684,5.0,-1.84,MASK0)
+SIN015 (0.29714383060989663,6.0,-0.1,MASK0)
+SIN016 (0.1808221880178644,7.0,0.1,MASK0)
+SIN017 (0.311235743392044,8.0,-3.05,MASK0)
+SIN018 (0.6534536694668907,9.0,-1.01,MASK0)
+SIN019 (0.21785696649503322,10.0,0.43,MASK0)
+SIN0110 (0.37674277529745126,11.0,3.07,MASK0)
+SIN0111 (0.399432800446145,12.0,-0.98,MASK0)
+SIN0112 (0.19387213935513536,13.0,-0.59,MASK0)
+SIN0113 (0.1353303399457634,13.5,-2.84,MASK0)
+SIN0114 (0.1677211587778727,18.0,-2.35,MASK0)
+SIN0115 (0.14787441868331494,18.5,0.23,MASK0)
+SIN0116 (0.13022245659192452,22.5,0.93,MASK0)
+SIN0117 (0.10528930537873785,20.5,-0.44,MASK0)
+SIN0118 (0.1423729568648796,16.0,-0.35,MASK0)
+SIN0119 (0.39943280044614504,12.0,-0.98,MASK0)
+SIN0120 (0.37674277529745126,11.0,3.07,MASK0)
+SIN0121 (0.21785696649503317,10.0,0.43,MASK0)
+SIN0122 (0.6534536694668907,9.0,-1.01,MASK0)
+SIN0123 (0.3112357433920441,8.0,-3.05,MASK0)
+SIN0124 (0.18082218801786443,7.0,0.1,MASK0)
+SIN0125 (0.2971438306098967,6.0,-0.1,MASK0)
+SIN0126 (0.35659160711108684,5.0,-1.84,MASK0)
+SIN0127 (0.8997838235984817,4.0,-2.56,MASK0)
+SIN0128 (0.6317035040852612,3.0,1.33,MASK0)
+SIN0129 (0.684985991929379,2.0,3.09,MASK0)
+SIN0130 (0.43320827549465624,1.0,-2.04,MASK0)
+
+Reshape not needed for river centerline.
+Creating Meandering Center line with Function:SIN1
+Use user defined Inner Channel Depth Minimum.
+Alert! Can't find function Centerline Curvature Function in user-defined functions. Ignore function Centerline Curvature Function.
+Alert! Can't find function Thalweg Elevation Function in user-defined functions. Ignore function Thalweg Elevation Function.
+Creating Inner Channel Banks with left bank function: SIN0+SIN000+SIN2+SIN3+SIN4+SIN5+SIN6+SIN7+SIN8+SIN9+SIN10+SIN11+SIN12+SIN13+SIN14+SIN15+SIN16+SIN17+SIN18+SIN19+SIN20+SIN21+SIN22+SIN23+SIN24+SIN25+SIN26+SIN27+SIN28+SIN29+SIN30
+                             with right bank function: SIN010+SIN011+SIN012+SIN013+SIN014+SIN015+SIN016+SIN017+SIN018+SIN019+SIN0110+SIN0111+SIN0112+SIN0113+SIN0114+SIN0115+SIN0116+SIN0117+SIN0118+SIN0119+SIN0120+SIN0121+SIN0122+SIN0123+SIN0124+SIN0125+SIN0126+SIN0127+SIN0128+SIN0129+SIN0130
+                             with thalweg elevation function: None
+Alert! Can't find function L1 Outer Bank Function in user-defined functions. Ignore function L1 Outer Bank Function.
+Creating L1 Outer Bank with constant width: 20.0
+Alert! Can't find function R1 Outer Bank Function in user-defined functions. Ignore function R1 Outer Bank Function.
+Creating R1 Outer Bank with constant width: 20.0
+Adding perlin roughness to bed.
+
+
+Alert! Can't find function Valley Centerline Function in user-defined functions. Ignore function Valley Centerline Function.

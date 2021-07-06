@@ -1,0 +1,3 @@
+LINE2=(0, 8.097, MASK0)
+Lateral Offset Minimum (half)=5.816
+Lateral Offset Minimum (full)=11.632

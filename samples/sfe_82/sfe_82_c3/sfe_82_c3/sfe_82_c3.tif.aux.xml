@@ -1,0 +1,35 @@
+<PAMDataset>
+  <Metadata domain="Esri">
+    <MDI key="PyramidResamplingType">NEAREST</MDI>
+  </Metadata>
+  <PAMRasterBand band="1">
+    <Histograms>
+      <HistItem>
+        <HistMin>599.0572509765625</HistMin>
+        <HistMax>605.2659912109375</HistMax>
+        <BucketCount>256</BucketCount>
+        <IncludeOutOfRange>1</IncludeOutOfRange>
+        <Approximate>0</Approximate>
+        <HistCounts>6|8|5|5|3|4|4|12|14|18|32|29|27|30|31|31|28|39|35|33|43|46|52|52|68|96|82|104|131|101|101|100|94|94|117|115|99|114|109|124|95|114|100|87|83|83|79|78|70|90|84|63|64|88|66|67|69|78|57|68|74|62|64|84|48|58|81|65|50|65|72|43|62|70|56|56|64|57|58|64|58|52|50|53|54|55|54|48|49|45|52|48|46|51|57|29|43|66|53|33|34|44|37|33|48|31|42|32|23|45|24|19|47|47|41|33|25|39|29|34|43|37|37|27|28|37|27|33|40|49|33|30|32|33|31|41|39|33|33|29|34|31|33|38|39|35|40|28|32|38|31|43|40|27|39|27|24|41|46|29|39|34|26|41|38|40|39|25|37|31|31|43|34|46|25|28|36|34|45|35|35|33|28|38|35|32|39|31|31|45|33|31|46|52|76|112|116|123|156|166|195|226|238|244|284|272|302|321|330|341|379|360|425|413|418|434|435|406|422|435|425|414|413|413|422|397|412|419|413|404|414|398|400|420|373|351|362|285|327|274|267|245|235|222|201|181|162|142|119|105|88|67|48|33|17|1</HistCounts>
+      </HistItem>
+      <HistItem>
+        <HistMin>0</HistMin>
+        <HistMax>-1</HistMax>
+        <BucketCount>1</BucketCount>
+        <IncludeOutOfRange>1</IncludeOutOfRange>
+        <Approximate>0</Approximate>
+        <HistCounts>0</HistCounts>
+      </HistItem>
+    </Histograms>
+    <Metadata>
+      <MDI key="STATISTICS_COVARIANCES">3.15601108057997</MDI>
+      <MDI key="STATISTICS_EXCLUDEDVALUES"></MDI>
+      <MDI key="STATISTICS_MAXIMUM">605.26599121094</MDI>
+      <MDI key="STATISTICS_MEAN">603.31902076482</MDI>
+      <MDI key="STATISTICS_MINIMUM">599.05725097656</MDI>
+      <MDI key="STATISTICS_SKIPFACTORX">1</MDI>
+      <MDI key="STATISTICS_SKIPFACTORY">1</MDI>
+      <MDI key="STATISTICS_STDDEV">1.7765165579245</MDI>
+    </Metadata>
+  </PAMRasterBand>
+</PAMDataset>

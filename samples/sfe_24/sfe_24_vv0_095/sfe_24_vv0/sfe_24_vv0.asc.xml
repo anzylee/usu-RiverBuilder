@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en"><Esri><CreaDate>20210611</CreaDate><CreaTime>10081800</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce><DataProperties><lineage><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Conversion Tools.tbx\RasterToASCII" Date="20210611" Time="100818">RasterToASCII F:\usu-RiverBuilder\samples\sfe_24\sfe_24_vv0\sfe_24_vv0\sfe_24_vv0.tif F:\usu-RiverBuilder\samples\sfe_24\sfe_24_vv0\sfe_24_vv0\sfe_24_vv0.asc</Process></lineage></DataProperties></Esri></metadata>

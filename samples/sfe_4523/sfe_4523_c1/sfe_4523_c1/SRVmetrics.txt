@@ -1,0 +1,15 @@
+River Channel Data:
+Sinuosity:1.151
+Channel Slope:0.003771108930440414
+Average Width of Inner Channel:4.166
+Average Height of Inner Channel:0.371
+Coefficient of Variation (W_ic):0.0
+Coefficient of Variation (H_ic):0.0
+Average Width Offset of L1 Outer Bank is: 4.0
+Average Width Offset of R1 Outer Bank is: 4.0
+
+Valley Data:
+Sinuosity:1.0
+Valley Slope:0.0216
+Average Width of L0 Valley Level is: 13.0
+Average Width of R0 Valley Level is: 24.8

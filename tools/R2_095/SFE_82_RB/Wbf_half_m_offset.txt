@@ -1,0 +1,2 @@
+LINE2=(0, 8.306, MASK0)
+Lateral Offset Minimum=6.425

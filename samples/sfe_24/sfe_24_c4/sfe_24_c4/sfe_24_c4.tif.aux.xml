@@ -1,0 +1,35 @@
+<PAMDataset>
+  <Metadata domain="Esri">
+    <MDI key="PyramidResamplingType">NEAREST</MDI>
+  </Metadata>
+  <PAMRasterBand band="1">
+    <Histograms>
+      <HistItem>
+        <HistMin>599.2112426757813</HistMin>
+        <HistMax>605.8773193359375</HistMax>
+        <BucketCount>256</BucketCount>
+        <IncludeOutOfRange>1</IncludeOutOfRange>
+        <Approximate>0</Approximate>
+        <HistCounts>2|3|5|7|6|7|12|31|22|35|40|39|43|58|55|68|40|67|60|76|48|71|62|60|68|67|58|53|70|74|68|79|80|74|63|86|84|92|86|87|90|82|94|83|79|75|80|71|72|65|54|55|56|40|49|43|47|55|56|48|56|55|50|38|54|41|52|46|35|42|30|39|26|43|31|34|68|38|44|62|44|43|50|58|50|47|61|47|28|32|41|64|38|35|35|70|38|57|55|39|38|26|37|61|38|43|51|46|39|64|41|46|43|26|40|56|34|41|61|44|47|52|35|41|42|38|49|47|34|57|47|42|61|41|27|48|37|40|49|41|40|61|45|52|46|38|30|45|38|51|54|32|49|47|49|58|38|34|36|40|35|54|55|41|43|60|45|48|41|30|38|43|36|52|59|41|48|50|58|37|37|39|40|31|43|61|53|39|49|60|43|42|37|35|38|43|44|47|50|45|51|62|41|41|32|43|57|67|115|120|138|156|162|201|210|233|260|266|270|269|256|281|264|263|273|270|264|269|247|282|278|253|274|238|292|273|284|242|244|283|253|271|277|242|304|209|227|191|162|169|108|113|74|54|45|1</HistCounts>
+      </HistItem>
+      <HistItem>
+        <HistMin>0</HistMin>
+        <HistMax>-1</HistMax>
+        <BucketCount>1</BucketCount>
+        <IncludeOutOfRange>1</IncludeOutOfRange>
+        <Approximate>0</Approximate>
+        <HistCounts>0</HistCounts>
+      </HistItem>
+    </Histograms>
+    <Metadata>
+      <MDI key="STATISTICS_COVARIANCES">4.12778226609239</MDI>
+      <MDI key="STATISTICS_EXCLUDEDVALUES"></MDI>
+      <MDI key="STATISTICS_MAXIMUM">605.87731933594</MDI>
+      <MDI key="STATISTICS_MEAN">603.56979174302</MDI>
+      <MDI key="STATISTICS_MINIMUM">599.21124267578</MDI>
+      <MDI key="STATISTICS_SKIPFACTORX">1</MDI>
+      <MDI key="STATISTICS_SKIPFACTORY">1</MDI>
+      <MDI key="STATISTICS_STDDEV">2.031694432264</MDI>
+    </Metadata>
+  </PAMRasterBand>
+</PAMDataset>

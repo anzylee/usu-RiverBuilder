@@ -1,0 +1,35 @@
+<PAMDataset>
+  <Metadata domain="Esri">
+    <MDI key="PyramidResamplingType">NEAREST</MDI>
+  </Metadata>
+  <PAMRasterBand band="1">
+    <Histograms>
+      <HistItem>
+        <HistMin>599.4022216796875</HistMin>
+        <HistMax>605.4776000976563</HistMax>
+        <BucketCount>256</BucketCount>
+        <IncludeOutOfRange>1</IncludeOutOfRange>
+        <Approximate>0</Approximate>
+        <HistCounts>2|1|2|2|12|13|12|10|20|24|36|42|50|47|85|81|89|93|111|97|118|128|112|143|126|110|118|90|119|95|104|90|86|74|54|72|73|60|65|72|56|67|46|64|55|49|55|59|59|53|56|46|52|53|41|45|37|57|39|46|45|35|35|33|52|38|38|40|46|30|40|60|42|45|54|48|52|40|49|67|34|29|31|53|54|35|28|46|67|34|59|53|40|27|31|42|55|36|39|54|43|37|57|49|45|42|25|42|54|31|37|60|42|31|70|36|32|46|40|38|52|38|37|52|55|33|58|43|23|47|38|40|49|41|39|58|41|56|43|36|32|37|43|40|54|41|42|49|53|40|52|37|26|43|35|41|61|36|51|48|43|48|50|31|33|44|34|37|56|51|45|48|49|56|35|37|34|38|37|36|54|51|50|41|55|53|37|29|44|32|36|47|45|48|57|41|47|53|40|40|37|44|64|82|117|116|133|144|148|181|197|209|228|262|223|260|236|237|260|234|238|251|251|229|267|219|254|247|227|252|244|216|269|249|172|333|176|312|190|276|217|268|208|272|199|191|205|147|172|105|99|103|58|45|41|1</HistCounts>
+      </HistItem>
+      <HistItem>
+        <HistMin>0</HistMin>
+        <HistMax>-1</HistMax>
+        <BucketCount>1</BucketCount>
+        <IncludeOutOfRange>1</IncludeOutOfRange>
+        <Approximate>0</Approximate>
+        <HistCounts>0</HistCounts>
+      </HistItem>
+    </Histograms>
+    <Metadata>
+      <MDI key="STATISTICS_COVARIANCES">3.57665775179889</MDI>
+      <MDI key="STATISTICS_EXCLUDEDVALUES"></MDI>
+      <MDI key="STATISTICS_MAXIMUM">605.47760009766</MDI>
+      <MDI key="STATISTICS_MEAN">603.27553283456</MDI>
+      <MDI key="STATISTICS_MINIMUM">599.40222167969</MDI>
+      <MDI key="STATISTICS_SKIPFACTORX">1</MDI>
+      <MDI key="STATISTICS_SKIPFACTORY">1</MDI>
+      <MDI key="STATISTICS_STDDEV">1.8912053700746</MDI>
+    </Metadata>
+  </PAMRasterBand>
+</PAMDataset>

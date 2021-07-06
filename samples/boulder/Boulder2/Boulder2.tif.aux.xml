@@ -1,0 +1,35 @@
+<PAMDataset>
+  <Metadata domain="Esri">
+    <MDI key="PyramidResamplingType">NEAREST</MDI>
+  </Metadata>
+  <PAMRasterBand band="1">
+    <Histograms>
+      <HistItem>
+        <HistMin>1097.5</HistMin>
+        <HistMax>1138.952514648438</HistMax>
+        <BucketCount>256</BucketCount>
+        <IncludeOutOfRange>1</IncludeOutOfRange>
+        <Approximate>0</Approximate>
+        <HistCounts>974|499|432|327|232|326|446|424|412|421|340|394|372|320|308|347|460|517|531|456|428|491|549|555|529|391|421|523|710|816|868|237|315|289|254|165|256|233|179|188|182|256|137|156|128|115|131|289|454|399|127|112|113|113|121|116|399|213|102|186|218|93|273|81|230|196|73|168|77|186|62|182|210|72|364|76|162|81|67|162|218|65|190|180|45|48|328|46|202|134|21|27|154|24|153|130|36|172|29|203|255|21|16|17|26|415|26|26|30|155|126|196|24|170|124|21|146|17|152|12|127|167|23|193|126|10|17|289|16|176|125|22|20|127|15|15|335|21|300|20|18|122|9|129|152|29|165|14|204|155|16|127|132|155|174|11|19|14|16|16|200|256|427|18|10|15|20|18|18|18|14|14|8|13|14|14|16|14|13|11|11|12|15|14|6|10|16|15|12|7|16|8|14|7|11|6|7|5|9|6|6|8|3|8|4|3|3|2|5|2|1|5|6|1|3|2|5|3|2|4|1|2|4|4|2|3|2|3|1|1|1|2|4|2|1|4|1|0|3|1|2|1|0|0|0|0|0|1|0|0|1|0|0|0|0|1</HistCounts>
+      </HistItem>
+      <HistItem>
+        <HistMin>0</HistMin>
+        <HistMax>-1</HistMax>
+        <BucketCount>1</BucketCount>
+        <IncludeOutOfRange>1</IncludeOutOfRange>
+        <Approximate>0</Approximate>
+        <HistCounts>0</HistCounts>
+      </HistItem>
+    </Histograms>
+    <Metadata>
+      <MDI key="STATISTICS_COVARIANCES">63.95970452412923</MDI>
+      <MDI key="STATISTICS_EXCLUDEDVALUES"></MDI>
+      <MDI key="STATISTICS_MAXIMUM">1138.9525146484</MDI>
+      <MDI key="STATISTICS_MEAN">1106.8913998657</MDI>
+      <MDI key="STATISTICS_MINIMUM">1097.5</MDI>
+      <MDI key="STATISTICS_SKIPFACTORX">1</MDI>
+      <MDI key="STATISTICS_SKIPFACTORY">1</MDI>
+      <MDI key="STATISTICS_STDDEV">7.9974811362159</MDI>
+    </Metadata>
+  </PAMRasterBand>
+</PAMDataset>
